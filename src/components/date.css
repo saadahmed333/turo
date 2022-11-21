@@ -19,6 +19,9 @@
     font-size: 12px;
     font-weight: 600;
 }
+.date{
+    border: none;
+}
 .firstDiv {
     display: flex;
     flex-direction: column;
@@ -102,3 +105,4 @@
         border-radius: 0px;
     }
 }
+

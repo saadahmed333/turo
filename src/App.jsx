@@ -11,6 +11,12 @@ function App() {
       <div className="background">
         <SearchdateWise/>
       </div>
+      <div className="bottomText">
+        <h1>Find your drive</h1>
+        <div className="explore">
+        <h2>Explore the world's largest car sharing marketplace</h2>
+        </div>
+      </div>
     </div>
   );
 }

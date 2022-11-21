@@ -8,6 +8,29 @@
   background-position-x: center;
     background-position-y: center;
 }
+.bottomText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0px;
+  margin-top: 25px;
+}
+.bottomText h1{
+  font-size: 80px;
+}
+
+.explore {
+  height: 25px;
+  background-color: #f2e9ff;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+}
+.explore h2 {
+  font-size: 25px;
+  position: relative;
+  bottom: 25px;
+}
 @media only screen and (max-width: 1000px) {
   .background {
     height: 500px;

@@ -27,11 +27,12 @@ function SearchdateWise() {
         <span>From</span>
         <div>
         <Space direction="vertical">
-          <DatePicker onChange={onChange} />
+          <DatePicker onChange={onChange} className="date"/>
         </Space>
         <TimePicker
           onChange={Time}
           defaultOpenValue={dayjs("00:00:00", "HH:mm:ss")}
+          className="date"
         />
         </div>
       </div>
@@ -39,10 +40,11 @@ function SearchdateWise() {
         <span>Until</span>
      <div>
      <Space direction="vertical">
-        <DatePicker onChange={onChange} />
+        <DatePicker onChange={onChange} className="date"/>
       </Space>
       <TimePicker
         onChange={Time}
+        className="date"
         defaultOpenValue={dayjs("00:00:00", "HH:mm:ss")}
       />
      </div>
