@@ -1,0 +1,13 @@
+
+
+.btn {
+    background-color: #593cfb;
+    height: 50px;
+    width: 140px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    /* margin: 0px auto; */
+}

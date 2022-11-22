@@ -22,7 +22,7 @@
 .explore {
   height: 25px;
   background-color: #f2e9ff;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 100px;
   padding: 0px 20px;
 }
@@ -31,9 +31,76 @@
   position: relative;
   bottom: 25px;
 }
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.backgroundImage {
+  margin-top: 80px;
+  position: relative;
+}
+.backgroundImage img {
+  width: 900px;
+  display: flex;
+  margin: 0px auto;
+}
+.backgroundImage-Text {
+  background-color: #121214;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  bottom: 350px;
+  left: 100px;
+  color: white;
+  padding: 10px 20px;
+}
+.backgroundImage-Text span {
+  font-weight: bold;
+}
+.backgroundImage-Text a {
+  color: white;
+}
 
 @media only screen and (max-width: 1000px) {
   .background {
     height: 500px;
   }
  }
+
+
+ @media only screen and (max-width: 670px) {
+  .bottomText {
+    line-height: 10px;
+  }
+  .bottomText h1{
+    font-size: 50px;
+  }
+  .explore h2 {
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+  }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .explore h2 {
+      font-size: 15px;
+      position: relative;
+      bottom: 15px;
+    }
+   }
+
+
+   @media only screen and (max-width: 420px) {
+    .explore {
+      height: 20px;
+    }
+    .bottomText h1{
+      font-size: 40px;
+    }
+    .explore h2 {
+      font-size: 12px;
+      position: relative;
+      bottom: 15px;
+    }
+    }

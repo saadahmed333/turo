@@ -1,5 +1,6 @@
 import "../components/slider.css"
 import Slider from "react-slick";
+import {Button} from "./button"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,6 +20,7 @@ import toyota from "../assets/toyota.jpg"
 
 
 import imageOutdoor from "../assets/image-outdoor.jpg"
+import carPlan from "../assets/carplan.jpg"
 
 const settings = {
     // dots: true,
@@ -86,27 +88,141 @@ const settings = {
 
 
 
-
-
-  const settingss = {
+  const sliderSettings = {
     // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 1
   };
-   function OneSlider(){
+   function Simple(){
+    return (
+          <>
+        <div className="simple-slidersss">
+        {/* <div className="sliders"> */}
+          <Slider {...sliderSettings} className="simple-sliderShow">
+            <div className="simple-cards">
+              <div className="simplecards-Img">
+              <img src={carPlan} alt="" />
+              </div>
+              <div className="simplecards-text">
+               <h2>Find the perfect car <span>to conquer the great outdoors</span></h2>
+               <p>Go prepared in a rugged 4x4 to take on winter roads with ease, or a camper van to take you to the trees.</p>
+                <Button title="Browse cars"/>
+              </div>
+            </div>
+            <div className="simple-cards">
+              <div className="simplecards-Img">
+              <img src={carPlan} alt="" />
+              </div>
+              <div className="simplecards-text">
+               <h2>Find the perfect car <span>to conquer the great outdoors</span></h2>
+               <p>Go prepared in a rugged 4x4 to take on winter roads with ease, or a camper van to take you to the trees.</p>
+                <Button />
+              </div>
+            </div>
+            <div className="simple-cards">
+              <div className="simplecards-Img">
+              <img src={carPlan} alt="" />
+              </div>
+              <div className="simplecards-text">
+               <h2>Find the perfect car <span>to conquer the great outdoors</span></h2>
+               <p>Go prepared in a rugged 4x4 to take on winter roads with ease, or a camper van to take you to the trees.</p>
+                <Button />
+              </div>
+            </div>
+            <div className="simple-cards">
+              <div className="simplecards-Img">
+              <img src={carPlan} alt="" />
+              </div>
+              <div className="simplecards-text">
+               <h2>Find the perfect car <span>to conquer the great outdoors</span></h2>
+               <p>Go prepared in a rugged 4x4 to take on winter roads with ease, or a camper van to take you to the trees.</p>
+                <Button />
+              </div>
+            </div>
+            <div className="simple-cards">
+              <div className="simplecards-Img">
+              <img src={carPlan} alt="" />
+              </div>
+              <div className="simplecards-text">
+               <h2>Find the perfect car <span>to conquer the great outdoors</span></h2>
+               <p>Go prepared in a rugged 4x4 to take on winter roads with ease, or a camper van to take you to the trees.</p>
+                <Button />
+              </div>
+            </div>
+            <div className="simple-cards">
+              <div className="simplecards-Img">
+              <img src={carPlan} alt="" />
+              </div>
+              <div className="simplecards-text">
+               <h2>Find the perfect car <span>to conquer the great outdoors</span></h2>
+               <p>Go prepared in a rugged 4x4 to take on winter roads with ease, or a camper van to take you to the trees.</p>
+                <Button />
+              </div>
+            </div>  
+          </Slider>
+        </div>
+        {/* </div> */}
+          </>
+      );
+
+  }
+  export {Simple}
+
+
+
+  const svgSettings = {
+    // dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    slidesToScroll: 1
+  };
+   function Svgslider(){
     return (
           <>
           <h2 className="sliderHeading">Browse by make</h2>
-        <div className="OneSliders">
-        <div className="OneSliders-sliders">
-          <Slider {...settingss} className="OneSliders-sliderShow">
-            <div className="OneSliders-cards">
-              <img src={imageOutdoor} alt="" />
+        <div className="slidersss">
+        <div className="sliders">
+          <Slider {...svgSettings} className="sliderShow">
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
               <span>Porsche</span>
             </div>
-          
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
+              <span>Porsche</span>
+            </div>
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png"  />
+              <span>Porsche</span>
+            </div>
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
+              <span>Porsche</span>
+            </div>
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
+              <span>Porsche</span>
+            </div>
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
+              <span>Porsche</span>
+            </div>
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
+              <span>Porsche</span>
+            </div>
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
+              <span>Porsche</span>
+            </div>
+            <div className="svg-cards">
+              <img alt="Miami" class="e1pogzhs1 seo-pages-18mxtd1-StyledImage-StyledImage-CityImage e3dl1lq0" src="//resources.turo.com/f/81934/240x240/dcae922a23/illo_city_miami-2x.png" />
+              <span>Porsche</span>
+            </div>
+            
           </Slider>
         </div>
         </div>
@@ -114,4 +230,4 @@ const settings = {
       );
 
   }
-  export {OneSlider}
+  export {Svgslider}
