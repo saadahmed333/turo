@@ -5,6 +5,8 @@ import { SearchdateWise } from "./components/date";
 import { SimpleSlider } from "./components/slider.jsx";
 import { Simple } from "./components/slider.jsx";
 import { Svgslider } from "./components/slider.jsx";
+import { ExperienceSlider } from "./components/slider.jsx";
+import { HostSlider } from "./components/slider.jsx";
 import {Button} from "./components/button"
 function App() {
   return (
@@ -47,6 +49,17 @@ function App() {
         <p>Discover the epic waterfalls, moody weather, and lush forests of coastal Washington.</p>
         <a href="#">Read more</a>
       </div>
+      </div>
+      <div>
+        <ExperienceSlider />
+      </div>
+      <div className="host">
+      <div className="hostText">
+        <h1>Meet the hosts</h1>
+      </div>
+      </div>
+      <div>
+        <HostSlider />
       </div>
     </div>
   );

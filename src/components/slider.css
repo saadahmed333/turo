@@ -1,9 +1,6 @@
-
-
-
 .heade {
   margin-left: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .slider {
   margin-bottom: 50px;
@@ -12,9 +9,9 @@
   object-fit: contain;
 }
 .cards {
-    width: 1200px;
-    margin: 0px auto;
-    padding-left: 10px;
+  width: 1200px;
+  margin: 0px auto;
+  padding-left: 10px;
 }
 .card {
   max-width: 180px;
@@ -41,7 +38,6 @@
     padding-left: 30px;
   }
 }
-
 
 .Simple-cards {
   height: auto;
@@ -82,11 +78,11 @@
   .simplecard-text {
     margin-left: 40px;
   }
-  .simplecard-text h2{
+  .simplecard-text h2 {
     font-size: 20px;
   }
- }
- @media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 900px) {
   .Simple-cards {
     flex-direction: column;
     padding: 0px 0px;
@@ -105,97 +101,159 @@
     margin-left: 0px;
     width: 100%;
   }
+}
+@media only screen and (max-width: 800px) {
+  .simplecard-Img {
+    margin-left: 100px;
+    margin-right: 80px;
   }
-  @media only screen and (max-width: 800px) {
-    .simplecard-Img {
-      margin-left: 100px;
-      margin-right: 80px;
-    }
-    .simplecard-text {
-      margin-top: 40px;
-      margin-left: 0px;
-      width: 50%;
-    }
-   }
-   @media only screen and (max-width: 650px) {
-    .simplecard-Img {
-      margin-left: 50px;
-      margin-right: 40px;
-    }
-    .simplecard-text {
-      margin-top: 40px;
-      margin-left: 0px;
-      width: 40%;
-    }
-    }
-    @media only screen and (max-width: 650px) { 
-      .Simple-cards {
-        flex-direction: column;
-        padding: 0px 100px;
-        height: 600px;
-        justify-content: center;
+  .simplecard-text {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .simplecard-Img {
+    margin-left: 50px;
+    margin-right: 40px;
+  }
+  .simplecard-text {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .Simple-cards {
+    flex-direction: column;
+    padding: 0px 100px;
+    height: 600px;
+    justify-content: center;
+  }
+  .simplecard-Img img {
+    width: 300px;
+  }
+  .simplecard-Img {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .simplecard-text {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .Simple-cards {
+    padding: 0px 50px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Simple-cards {
+    padding: 0px 20px;
+  }
+  .simplecard-Img img {
+    width: 250px;
+  }
+  .simplecard-Img {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .simplecard-text {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 25%;
+  }
+}
 
-      }
-      .simplecard-Img img {
-        width: 300px;
-      }
-      .simplecard-Img {
-        margin-left: 30px;
-        margin-right: 20px;
-      }
-      .simplecard-text {
-        margin-top: 40px;
-        margin-left: 0px;
-        width: 30%;
-      }
-    }
-    @media only screen and (max-width: 650px) {
-      .Simple-cards {
-        padding: 0px 50px;
-      }
-     }
-     @media only screen and (max-width: 480px) {
-      .Simple-cards {
-        padding: 0px 20px;
-      }
-      .simplecard-Img img {
-        width: 250px;
-      }
-      .simplecard-Img {
-        margin-left: 20px;
-        margin-right: 10px;
-      }
-      .simplecard-text {
-        margin-top: 40px;
-        margin-left: 0px;
-        width: 25%;
-      }
-      }
+.Svgcards {
+  width: 1200px;
+  margin: 0px auto;
+  padding-left: 10px;
+}
+.Svgcard {
+  max-width: 180px;
+  margin-right: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+.Svgcard img {
+  width: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.Svgcard span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 50px;
+}
 
+.Experiencecards {
+  width: 1200px;
+  margin: 0px auto;
+  padding-left: 10px;
+}
+.Experiencecard {
+  max-width: 350px;
+  height: 320px;
+  border-radius: 10px;
+  margin-right: 10px !important;
+  border: none;
+  outline: none;
+}
+.Experiencecard img {
+  width: 350px;
+  border-radius: 10px;
+}
+.Experiencecard span {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  height: 50px;
+}
 
-
-      .Svgcards {
-        width: 1200px;
-        margin: 0px auto;
-        padding-left: 10px;
-      }
-      .Svgcard {
-        max-width: 180px;
-        margin-right: 10px !important;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-      }
-      .Svgcard img {
-        width: 150px;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-      }
-      .Svgcard span {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-        height: 50px;
-      }
+.Hostcards {
+  width: 1200px;
+  margin: 0px auto;
+  padding-left: 10px;
+}
+.Hostcard {
+  max-width: 350px;
+  height: 320px;
+  border-radius: 10px;
+  margin-right: 10px !important;
+  border: none;
+  outline: none;
+  background-color: aqua;
+  padding: 10px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.Hostcard .image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.Hostcard .image img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.profileText {
+  padding-left: 20px;
+  height: 90px;
+}
+.id {
+  font-size: 20px;
+  font-weight: bold;
+}
