@@ -28,13 +28,15 @@ function App() {
       <div>
         <Svgslider />
       </div>
-      <div className="bottomText">
-        <h1>Fuel your daydreams</h1>
-        <div className="explore">
-          <h2>Stoke your wanderlust with some dreamy photo chronicles of road trip adventures.</h2>
-         <div className="buttons">
-         <Button title="Explore Travelogues" />
-         </div>
+      <div className="fuel">
+        <div className="fuel-Text">
+          <div className="fuelText-h1">
+          <h1>Fuel your daydreams</h1>
+          </div>
+          <span>Stoke your wanderlust with some dreamy photo chronicles of road trip adventures.</span>
+          <div>
+          <Button title="Explore Travelogues" />
+          </div>
         </div>
       </div>
       <div className="backgroundImage">
