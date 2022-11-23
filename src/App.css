@@ -186,3 +186,12 @@
   position: relative;
   bottom: 70px;
 }
+
+
+@media only screen and (max-width: 560px) {
+  .hostText h1 {
+    font-size: 40px;
+    position: relative;
+    bottom: 55px;
+  }
+ }

@@ -224,14 +224,14 @@
   padding-left: 10px;
 }
 .Hostcard {
-  max-width: 350px;
-  height: 320px;
+  max-width: 320px;
+  height: 240px;
   border-radius: 10px;
   margin-right: 10px !important;
   border: none;
   outline: none;
-  background-color: aqua;
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 }
 .profile {
   display: flex;
@@ -251,9 +251,22 @@
 }
 .profileText {
   padding-left: 20px;
-  height: 90px;
+  height: 80px;
 }
 .id {
   font-size: 20px;
   font-weight: bold;
+}
+.profileText .idText {
+  font-size: 14px;
+}
+#where-to-render {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.review {
+  padding-left: 20px;
+}
+.reviewText {
+  font-size: 13px;
 }

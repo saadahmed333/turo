@@ -362,6 +362,10 @@ let hostSet = {
 };
 
 function HostSlider() {
+  const ratingChanged = (newRating) => {
+    console.log(newRating)
+  }
+  document.getElementById('where-to-render')
   return (
     <>
       <h2 className="heade">Top hosts on Turo</h2>
@@ -375,13 +379,27 @@ function HostSlider() {
               <div className="profileText">
                 <span className="id">Kevin M.</span>
                 <br />
-                <span>All-Star Host</span>
+                <span className="idText">All-Star Host</span>
                 <br />
-                <span>489 trips . Joined Aug 2020</span>
+                <span className="idText">489 trips . Joined Aug 2020</span>
               </div>
             </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
             <div className="review">
-              <span>He came thru for us at the last minute was literally on the plane when i got a call that my car from a rental agency.</span>
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
             </div>
           </div>
           <div className="Hostcard">
@@ -392,10 +410,27 @@ function HostSlider() {
               <div className="profileText">
                 <span className="id">Kevin M.</span>
                 <br />
-                <span>All-Star Host</span>
+                <span className="idText">All-Star Host</span>
                 <br />
-                <span>489 trips . Joined Aug 2020</span>
+                <span className="idText">489 trips . Joined Aug 2020</span>
               </div>
+            </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
             </div>
           </div>
           <div className="Hostcard">
@@ -406,10 +441,27 @@ function HostSlider() {
               <div className="profileText">
                 <span className="id">Kevin M.</span>
                 <br />
-                <span>All-Star Host</span>
+                <span className="idText">All-Star Host</span>
                 <br />
-                <span>489 trips . Joined Aug 2020</span>
+                <span className="idText">489 trips . Joined Aug 2020</span>
               </div>
+            </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
             </div>
           </div>
           <div className="Hostcard">
@@ -420,12 +472,185 @@ function HostSlider() {
               <div className="profileText">
                 <span className="id">Kevin M.</span>
                 <br />
-                <span>All-Star Host</span>
+                <span className="idText">All-Star Host</span>
                 <br />
-                <span>489 trips . Joined Aug 2020</span>
+                <span className="idText">489 trips . Joined Aug 2020</span>
               </div>
             </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
+            </div>
           </div>
+          <div className="Hostcard">
+            <div className="profile">
+              <div className="image">
+                <img src={allWheel} alt="" />
+              </div>
+              <div className="profileText">
+                <span className="id">Kevin M.</span>
+                <br />
+                <span className="idText">All-Star Host</span>
+                <br />
+                <span className="idText">489 trips . Joined Aug 2020</span>
+              </div>
+            </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
+            </div>
+          </div>
+          <div className="Hostcard">
+            <div className="profile">
+              <div className="image">
+                <img src={allWheel} alt="" />
+              </div>
+              <div className="profileText">
+                <span className="id">Kevin M.</span>
+                <br />
+                <span className="idText">All-Star Host</span>
+                <br />
+                <span className="idText">489 trips . Joined Aug 2020</span>
+              </div>
+            </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
+            </div>
+          </div>
+          <div className="Hostcard">
+            <div className="profile">
+              <div className="image">
+                <img src={allWheel} alt="" />
+              </div>
+              <div className="profileText">
+                <span className="id">Kevin M.</span>
+                <br />
+                <span className="idText">All-Star Host</span>
+                <br />
+                <span className="idText">489 trips . Joined Aug 2020</span>
+              </div>
+            </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
+            </div>
+          </div>
+          <div className="Hostcard">
+            <div className="profile">
+              <div className="image">
+                <img src={allWheel} alt="" />
+              </div>
+              <div className="profileText">
+                <span className="id">Kevin M.</span>
+                <br />
+                <span className="idText">All-Star Host</span>
+                <br />
+                <span className="idText">489 trips . Joined Aug 2020</span>
+              </div>
+            </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
+            </div>
+          </div>
+          <div className="Hostcard">
+            <div className="profile">
+              <div className="image">
+                <img src={allWheel} alt="" />
+              </div>
+              <div className="profileText">
+                <span className="id">Kevin M.</span>
+                <br />
+                <span className="idText">All-Star Host</span>
+                <br />
+                <span className="idText">489 trips . Joined Aug 2020</span>
+              </div>
+            </div>
+            <div id="where-to-render">
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  color2={"#ffd700"}
+                />
+              </div>
+            <div className="review">
+              <span>
+                He came thru for us at the last minute was literally on the
+                plane when i got a call that my car from a rental agency.
+              </span>
+              <br />
+              <br />
+              <span className="reviewText">Donna S. - Nov 2022</span>
+            </div>
+          </div>
+         
         </Slider>
       </div>
     </>
