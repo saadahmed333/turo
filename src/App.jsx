@@ -7,6 +7,7 @@ import { Simple } from "./components/slider.jsx";
 import { Svgslider } from "./components/slider.jsx";
 import { ExperienceSlider } from "./components/slider.jsx";
 import { HostSlider } from "./components/slider.jsx";
+import { Image } from "./components/img";
 import {Button} from "./components/button"
 function App() {
   return (
@@ -60,6 +61,21 @@ function App() {
       </div>
       <div>
         <HostSlider />
+      </div>
+      <div className="SvgImage">
+        <div className="SvgImage-Div">
+        <Image />
+        <div className="book">
+          <a href="#">Book a car</a>
+          <br />
+          <span>Down the street or across the country, find the perfect vehicle for your next adventure.</span>
+        </div>
+        <div className="Host">
+          <a href="#">Become a host</a>
+          <br />
+          <span>Accelerate your entrepreneurship and start building a small car sharing business on Turo</span>
+        </div>
+        </div>
       </div>
     </div>
   );

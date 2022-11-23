@@ -196,3 +196,79 @@
     bottom: 55px;
   }
  }
+
+ .SvgImage {
+  display: flex;
+}
+.SvgImage .SvgImage-Div {
+   margin: 100px auto;
+   position: relative;
+   width: 100%;
+ }
+ .book {
+  width: 250px;
+  position: absolute;
+  bottom: 50%;
+  left: 18%;
+  text-align: center;
+ }
+ .book a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+.Host {
+  width: 250px;
+  position: absolute;
+  left: 60%;
+  bottom: 20%;
+  text-align: center;
+ }
+ .Host a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.svg2 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 850px) {
+  .book {
+    bottom: 50%;
+    left: 10%;
+   }
+   .Host {
+    left: 60%;
+    bottom: 25%;
+   }
+}
+@media only screen and (max-width: 700px) {
+  .book {
+    bottom: 80%;
+    left: 30%;
+   }
+   .Host {
+    left: 30%;
+    bottom: 0;
+   }
+ }
+ @media only screen and (max-width: 490px) {
+  .book {
+    left: 20%;
+   }
+   .Host {
+    left: 20%;
+   }
+ }
+ @media only screen and (max-width: 370px) {
+  .book {
+    left: 10%;
+   }
+   .Host {
+    left: 10%;
+   }
+ }
