@@ -23,7 +23,7 @@ function SearchdateWise() {
         <span>Where</span>
         <input type="text" placeholder="City, airport, address or hotel" />
       </div>
-      <div className="secondDiv">
+      <div className="secondDiv-date">
         <span>From</span>
         <div>
         <Space direction="vertical">
@@ -36,7 +36,7 @@ function SearchdateWise() {
         />
         </div>
       </div>
-      <div className="thirdDiv">
+      <div className="thirdDiv-date">
         <span>Until</span>
      <div>
      <Space direction="vertical">
@@ -49,7 +49,7 @@ function SearchdateWise() {
       />
      </div>
       </div>
-      <div className="searchIcon">
+      <div className="searchIcons">
       <span><FontAwesomeIcon icon={faSearch} /></span>
       </div>
     </div>

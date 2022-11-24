@@ -10,6 +10,7 @@ import { HostSlider } from "./components/slider.jsx";
 import { Image } from "./components/img";
 import { Button } from "./components/button";
 import { Accordian } from "./components/accordian";
+import { Footer } from "./components/footer";
 import { Footertext } from "./components/footer";
 
 
@@ -45,7 +46,7 @@ function App() {
             adventures.
           </span>
           <div>
-            <Button title="Explore Travelogues" />
+            <Button font="14px" title="Explore Travelogues" />
           </div>
         </div>
       </div>
@@ -106,6 +107,9 @@ function App() {
         </div>
         <div>
           <Footertext />
+        </div>
+        <div>
+          <Footer />
         </div>
     </div>
   );

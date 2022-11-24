@@ -232,7 +232,7 @@ const Accordian = () => {
                   aria-expanded="false"
                   aria-controls="collapseSeven"
                 >
-                  What is the cancellation policy on Turo?
+                  How do I get discounts when booking a car?
                 </button>
               </h2>
               <div
@@ -268,7 +268,7 @@ const Accordian = () => {
                   aria-expanded="false"
                   aria-controls="collapseEight"
                 >
-                  What are the cleaning and safety policies on Turo?
+                  How do I get discounts when booking a car?
                 </button>
               </h2>
               <div
