@@ -167,13 +167,15 @@
   }
 }
 
-.host {
+.hostess {
   width: 100%;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
   height: 60px;
   margin-top: 100px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
 }
 .hostText {
   height: 30px;
@@ -235,6 +237,28 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.question {
+  /* width: 100%; */
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.questionText {
+  height: 30px;
+  background-color: #f2e9ff;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+}
+.questionText h1 {
+  font-size: 50px;
+  position: relative;
+  bottom: 70px;
+}
 
 @media only screen and (max-width: 850px) {
   .book {
@@ -246,6 +270,13 @@
     bottom: 25%;
    }
 }
+@media only screen and (max-width: 750px) {
+  .questionText h1 {
+    font-size: 40px;
+    position: relative;
+    bottom: 70px;
+  }
+ }
 @media only screen and (max-width: 700px) {
   .book {
     bottom: 80%;
@@ -256,6 +287,13 @@
     bottom: 0;
    }
  }
+ @media only screen and (max-width: 600px) {
+  .questionText h1 {
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+  }
+ }
  @media only screen and (max-width: 490px) {
   .book {
     left: 20%;
@@ -264,6 +302,13 @@
     left: 20%;
    }
  }
+ @media only screen and (max-width: 450px) {
+  .questionText h1 {
+    font-size: 30px;
+    position: relative;
+    bottom: 80px;
+  }
+  }
  @media only screen and (max-width: 370px) {
   .book {
     left: 10%;
@@ -272,3 +317,7 @@
     left: 10%;
    }
  }
+
+
+
+ 
