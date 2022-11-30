@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { fafacebook , faUser } from '@fortawesome/free-solid-svg-icons'
 const Footertext = () => {
   return (

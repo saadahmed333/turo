@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <div className="top-header">
-        <a href="#">Turo has launched in New York! Tap to explore cars.</a>
+        <a>Turo has launched in New York! Tap to explore cars.</a>
       </div>
       <div className="header">
         <div className="logo">

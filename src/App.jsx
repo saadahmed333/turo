@@ -13,7 +13,7 @@ import { Accordian } from "./components/accordian";
 import { Footer } from "./components/footer";
 import { Footertext } from "./components/footer";
 // import { Modal } from "antd";
-import {Modal} from "./components/modal"
+// import {Modal} from "./components/modal"
 
 
 function App() {
@@ -112,9 +112,6 @@ function App() {
         </div>
         <div>
           <Footer />
-        </div>
-        <div>
-          <Modal />
         </div>
     </div>
   );
