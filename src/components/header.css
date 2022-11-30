@@ -29,7 +29,8 @@
     cursor: pointer;
 }
 .left-logos {
-     width: 190px;
+     width: 200px;
+     padding-right: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,9 +51,38 @@
     justify-content: space-between;
     cursor: pointer;
 }
-
-
-
+.logos {
+    font-size: 20px;
+    cursor: pointer;
+    color: #414143;
+    margin-right: 20px;
+}
+.dropdowns {
+    border: none !important;
+    outline: none !important;
+}
+.becomeHr {
+    border-bottom: 1px solid #414143;
+}
+.menu {
+    width: 300px !important;
+}
+.menu .items {
+    margin-bottom: 10px;
+}
+.options {
+    background-color: #f4f4f4 !important;
+    border: none !important;
+    outline: none !important;
+    width: 80px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 30px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px !important;
+}
 @media only screen and (max-width: 650px) {
     .top-header a {
         color: #414143;

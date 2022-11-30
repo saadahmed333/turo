@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { Button } from "./button";
 import ReactStars from "react-stars";
 import React from "react";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,7 +19,7 @@ import tesla from "../assets/tesla.jpg";
 import nissan from "../assets/nissan.jpg";
 import toyota from "../assets/toyota.jpg";
 
-import imageOutdoor from "../assets/image-outdoor.jpg";
+// import imageOutdoor from "../assets/image-outdoor.jpg";
 import carPlan from "../assets/carplan.jpg";
 
 import allWheel from "../assets/experienceImage/allwheel.jpg";
